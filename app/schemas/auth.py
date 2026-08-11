@@ -16,3 +16,8 @@ class UserResponse(BaseModel):
     model_config = {
         "from_attributes": True
     }
+
+
+class LoginRequest(BaseModel):
+    email: EmailStr
+    password: str
