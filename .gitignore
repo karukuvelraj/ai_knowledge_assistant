@@ -1,0 +1,21 @@
+# Python Environment
+env/
+
+# VS Code
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+
+# Environmennt files
+.env
+
+
+# Logs
+*.log
+
+# Other files
+Folder structure.txt
